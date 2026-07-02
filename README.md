@@ -2,6 +2,12 @@
 
 This project uses Logistic Regression to predict whether a patient has diabetes based on diagnostic medical measurements. The goal is to apply the machine learning workflow learned in class to a real-world healthcare dataset.
 
+## Author
+**Mahmoud Najmeh**  
+<img src="https://avatars.githubusercontent.com/u/78208459?u=c3f9c7d6b49fc9726c5ea8bce260656bcb9654b3&v=4" width="200px" style="border-radius: 50%;">
+
+------------------------------------------------------------------------
+
 ## Project Overview
 
 The model is trained on the diabetes dataset, which contains medical predictor variables such as glucose level, blood pressure, BMI, insulin level, age, and other diagnostic measurements.
@@ -112,8 +118,3 @@ __pycache__/
 ```
 
 ```
-
-## Author
-
-Mahmoud Najmeh
-# ml-diabetes-prediction
