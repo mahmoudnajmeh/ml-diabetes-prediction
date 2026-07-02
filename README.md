@@ -10,7 +10,11 @@ This project uses Logistic Regression to predict whether a patient has diabetes 
 
 ## Project Overview
 
-The model is trained on the diabetes dataset, which contains medical predictor variables such as glucose level, blood pressure, BMI, insulin level, age, and other diagnostic measurements.
+This project uses Logistic Regression to predict whether a patient has diabetes based on diagnostic medical measurements. The goal is to apply the machine learning workflow learned in class to a real-world healthcare dataset.
+
+<p align="center">
+  <img src="images/workflow.png" alt="Diabetes Prediction Workflow" width="900">
+</p>
 
 The target variable is `Outcome`:
 
