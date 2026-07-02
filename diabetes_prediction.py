@@ -72,28 +72,6 @@ def print_results(data, X_train, X_test, accuracy, matrix):
 
     print(f"\nFalse Negatives (FN): {false_negatives}")
 
-    print("\nReflection")
-    print("Question 1:")
-    print(
-        f"My confusion matrix produced {false_negatives} False Negatives. "
-        "These are patients who actually have diabetes but were incorrectly predicted as not having diabetes."
-    )
-
-    print("\nQuestion 2:")
-    print(
-        "A False Negative means a patient who actually has diabetes is incorrectly predicted as not having the disease. "
-        "This can delay diagnosis, treatment, and necessary lifestyle changes, increasing the risk of serious complications "
-        "such as heart disease, kidney damage, nerve damage, and vision loss."
-    )
-    print(
-        "A False Positive means a patient without diabetes is incorrectly predicted as having the disease. "
-        "Although this may cause unnecessary stress and additional medical tests, it is generally less harmful than a False Negative "
-        "because the patient can receive further testing to confirm the diagnosis."
-    )
-    print(
-        "Overall, False Negatives are more dangerous because they may prevent patients from receiving timely medical care."
-    )
-
 
 def main():
     diabetes_data = load_data(DATASET_PATH)
